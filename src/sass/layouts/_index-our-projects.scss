@@ -1,0 +1,49 @@
+.project {
+    padding-bottom: 25px;
+    .section__title {
+        text-align: center;
+    }
+
+    .project__text {
+        text-align: center;
+        margin-bottom: 93px;
+    }
+
+}
+
+.project__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -25px -50px;
+    
+}
+
+.project__item {
+    overflow: hidden;
+    width: calc(50% - 100px);
+    margin: 25px 50px;
+
+    .border-left-top {
+        overflow: hidden;
+        border-top-left-radius: 80px;
+    }
+    .border-right-top {
+        overflow: hidden;
+        border-top-right-radius: 80px;
+    }
+    .border-right-bottom {
+        overflow: hidden;
+        border-bottom-right-radius: 80px;
+    }
+    .border-left-bottom {
+        overflow: hidden;
+        border-bottom-left-radius: 80px;
+    }
+
+    .card__meta {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+

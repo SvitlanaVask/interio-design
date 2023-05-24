@@ -1,0 +1,35 @@
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__subtitle {
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    line-height: 1.25;
+}
+
+.footer__list, .footer__address {
+    font-size: 22px;
+    line-height: 3;
+    letter-spacing: 0.01em;
+
+    color: #4D5053;
+}
+
+
+.footer__interno {
+    width: 393px;
+}
+
+.footer__pages {
+    width: 125px;
+}
+
+.footer__services {
+    width: 125px;
+}
+
+.footer__contact {
+    width: 258px;
+}

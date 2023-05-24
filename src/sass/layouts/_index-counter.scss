@@ -1,0 +1,51 @@
+.counter {
+    background-color: #F4F0EC;
+
+    .container {
+        position: relative;
+    }
+}
+
+.counter__list {
+    display: flex;
+    justify-content:space-between ; 
+
+    
+}
+
+.counter__item {
+    @include flex-center;
+    flex-direction: column;
+    
+
+    &:not(:last-child):after {
+    content: '';
+        position: absolute;
+        
+        width: 1px;
+        height: 130px;
+        background-color: #CDA274;
+        transform: translateX(170px);
+    }
+}
+
+
+
+.counter__number {
+    font-family: 'DM Serif Display';
+    font-size: 85px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #CDA274;
+}
+
+// .counter__text {
+//     font-family: 'Jost';
+//         font-style: normal;
+//         font-weight: 400;
+//         font-size: 22px;
+//         line-height: 150%;
+//         letter-spacing: 0.01em;
+    
+//         color: #4D5053;
+// }

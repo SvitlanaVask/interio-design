@@ -1,0 +1,50 @@
+.client-responce .container {
+    background: #F4F0EC;
+    border-radius: 70px;
+}
+
+.client-responce .section__title {
+    padding-top: 38px;
+    margin-bottom: 88px;
+    text-align: center;
+}
+
+.responce__list {
+    display: flex;
+    margin: -10px;
+}
+
+.responce__item {
+    width: 33.333%;            
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 88px;
+
+}
+
+.card {
+    height: 100%;
+    padding-top: 52px;
+    padding-left: 37px;
+
+    background-color: #ffffff;
+    border-radius: 40px;
+}
+
+.card__thumb {
+    display: flex;
+    gap: 23px;
+
+    .card__img {
+        width: 77px;
+        height: 77px;
+        border-radius: 50%;
+    }
+}
+
+.card__content {
+    
+    margin-top: 25px;
+    padding-bottom: 52px;
+}
+

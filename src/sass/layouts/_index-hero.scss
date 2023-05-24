@@ -1,0 +1,27 @@
+.hero {
+    width: 1920px;
+    min-height: 1042px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 330px;
+    background-image: url(../../images/hero.jpg);
+
+    border-radius: 0px 0px 0px 291px;
+}
+
+.hero__title {
+    font-family: 'DM Serif Display';
+    font-size: 85px;
+    line-height: 1.25;
+
+    align-items: center;
+}
+
+.btn.primary {
+    margin-top: 21px;
+
+    &:hover {
+        background-color: $accent-color;
+    }
+}
+

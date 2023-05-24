@@ -1,2 +1,21 @@
-@import './common';
-@import './example';
+@import './components/vars';
+@import './components/mixins';
+
+@import './base/reset';
+@import './base/visually-hidden';
+@import './base/utils';
+
+
+
+
+@import './layouts/index-header';
+@import './layouts/index-hero';
+@import './layouts/index-work';
+@import './layouts/index-about-us';
+@import './layouts/index-client-responce';
+@import './layouts/index-our-clients';
+@import './layouts/index-our-projects';
+@import './layouts/index-counter';
+@import './layouts/index-blog';
+@import './layouts/index-join-us';
+@import './layouts/index-footer';

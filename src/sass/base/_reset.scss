@@ -1,0 +1,48 @@
+:root {
+    --primary-text-color: #292F36;
+    --accent-color: #CDA274;
+    --background-color: #F4F0EC;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+
+    font-family: Jost, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--primary-text-color)
+}
+
+a:visited {
+    color: var(--primary-text-color)
+}
