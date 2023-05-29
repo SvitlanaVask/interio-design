@@ -1,0 +1,40 @@
+.about-form {
+  padding: 0 202px;
+  .section__title {
+    padding: 0 81px;
+    text-align: center;
+  }
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+}
+
+.form-label {
+  display: inline-block;
+  width: calc(50% - 5px);
+}
+
+.form-label__text {
+  display: block;
+  margin-top: 57px;
+}
+
+.form-text {
+  width: 100%;
+  height: 120px;
+  resize: none;
+
+}
+
+.form-input, .form-text {
+ border: 0;
+  border-bottom: 1px solid #292F36;
+}
+
+.form-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
