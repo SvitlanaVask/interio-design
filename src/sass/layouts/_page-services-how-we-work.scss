@@ -1,0 +1,61 @@
+.how-we-work{
+  
+  .container{
+    background-color: #F4F0EC;
+    border-radius: 30px;
+  }
+
+  .section__title {
+    margin-bottom: 30px;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .section__subtitle{
+    margin-bottom: 20px;
+  }
+
+  .section-text {
+    padding-left: 198px;
+    padding-right: 198px;
+    
+    text-align: center;
+  }
+}
+
+.how-list {
+  padding: 100px 116px;
+}
+
+.how-item {
+  display: flex;
+  gap: 50px;
+}
+
+.how-item:not(:last-child) {
+  margin-bottom: 70px;
+}
+
+.how-item.reverce {
+  flex-direction: row-reverse;
+} 
+
+.how-image {
+  width: 453px;
+  border-radius: 0px 123px 0px 326px;
+  overflow: hidden;
+}
+
+.how-icons {
+  display: flex;
+  gap: 250px;
+  margin-bottom: 58px;
+}
+
+.how-icons svg {
+  height: 95px;
+}
+
+.how-descr {
+  width: 456px;
+}

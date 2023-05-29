@@ -4,12 +4,20 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 178px;
-
-    background-image: url(../images/about-hero.jpg);
+   
     background-repeat: no-repeat;
-
+    
+    &.about {
+        background-image: url(../images/about-hero.jpg);
+        
+    }
+    
+    &.services {
+        background-image: url(../images/services-hero.jpg);
+    }
     
 }
+
 
 .title-background {
     width: 503px;
