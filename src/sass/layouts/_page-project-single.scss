@@ -1,0 +1,26 @@
+.single-pr-info {
+  min-width: 500px;
+  padding: 55px 84px;
+  
+  background: #F4F0EC;
+  border-radius: 70px;
+    
+  li {
+    display: flex;
+    gap: 50px;
+    // justify-content: center;
+    // align-items: center;
+  }
+}
+
+.single-pr-bold {
+  display: inline-block;
+  width: 100px;
+  font-family: 'DM Serif Display';
+  
+} 
+
+.single-flex {
+  display: flex;
+  gap: 42px;
+}

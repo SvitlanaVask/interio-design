@@ -1,0 +1,21 @@
+.filter-list {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  border: 1px solid #CDA274;
+  border-radius: 18px;
+}
+
+.filter-item {
+  display: block;
+  height: 75px;
+  padding: 26px 66px;
+  border-radius: 18px;
+  line-height: 1;
+}
+
+.filter-item:hover,
+.filter-item:focus {
+  color: #fff;
+  background-color: #CDA274;
+}
