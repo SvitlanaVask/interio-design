@@ -15,6 +15,14 @@
     &.services {
         background-image: url(../images/services-hero.jpg);
     }
+
+    &.project {
+        background-image: url(../images/project-hero.jpg);
+    }
+
+    &.single-pr {
+        background-image: url(../images/single-pr-hero.jpg);
+    }
     
 }
 
@@ -24,7 +32,7 @@
     height: 178px;
     margin-left: auto;
     margin-right: auto;
-    padding: 41px 150px;
+    padding: 41px 100px;
     background-color: #fff;
     border-radius: 37px 37px 0px 0px;
 
